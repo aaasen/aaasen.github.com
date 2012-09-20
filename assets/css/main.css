@@ -1,39 +1,51 @@
 
 body {
-	background: url('assets/bg/swirl.png');
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	background-color: ;
+	background: url('/home/aasen/dev/aasenin/assets/bg/swirl.png');
+	font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+	color: #222;
 }
 
 h1 {
-	font-size: 20px;
+	font-family: "Contrail One", sans-serif;
+	font-size: 46px;
+	font-weight: normal;
+	padding: 12px 0px 0px 0px;
 }
 
 h3 {
-	font-size: 14px;
-	margin-top: -16px;
+	font-size: 16px;
+	margin-top: -4px;
+	font-weight: normal;
+}
+
+p {
+	padding: 16px 8px;
+	font-size: 16px;
 }
 
 .box {
-	background-color: #fefefe;
+	background-color: #fdfdfd;
 	border-radius: 4px;
 	padding-top: 0px;
 	//box-shadow: h-shadow v-shadow blur spread color inset;
-	box-shadow: 0px 0px 4px 4px #eee;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.04);
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
 	width: 300px;
-	border: 1px solid #ddd;
+	border: 1px solid #e3e3e3;
 	text-align: center;
 }
 
 .social {
-	background-color: #fafafa;
+	background-color: #fdfdfd;
 	padding: 8px 0px;
-	box-shadow: 0px 2px 4px 2px #eee inset;
+	box-shadow: 0px 2px 4px 2px #f2f2f2 inset;
+	border-top: 1px solid #e3e3e3;
 }
 
 .social img {
-	padding: 0px 10px;
+	margin: 0px 4px;
+	border-radius: 6px;
+	box-shadow: 0px 2px 4px 4px #eee;
 }

@@ -3,14 +3,23 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Lane Aasen</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<div class="box">
 			<h1>Lane Aasen</h1>
 			<h3>developer &middot; entrepeneur &middot; student</h3>
-			<p>I'm a dev from seattle and stuff</p>
+			<p>CTO of Firedove, web dev on Showr. Avid hiker, skier and runner.</p>
 
 			<div class="social">
 				<a href="https://plus.google.com/100962461815374238974"><img src="assets/img/gplus.png" /></a>
