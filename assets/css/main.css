@@ -23,6 +23,12 @@ p {
 	font-size: 16px;
 }
 
+a {
+	color: #222;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .box {
 	background-color: #fdfdfd;
 	border-radius: 4px;

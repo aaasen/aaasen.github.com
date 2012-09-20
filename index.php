@@ -13,7 +13,7 @@
 		<div class="box">
 			<h1>Lane Aasen</h1>
 			<h3>developer &middot; entrepeneur &middot; student</h3>
-			<p>CTO of Firedove, web dev on Showr. Avid hiker, skier and runner.</p>
+			<p>CTO of <a href="http://firedov.es">Firedove</a>, web dev on <a href="http://www.showrapp.co">Showr</a>. Avid hiker, skier and runner.</p>
 
 			<div class="social">
 				<a href="https://plus.google.com/100962461815374238974"><img src="assets/img/gplus.png" /></a>
