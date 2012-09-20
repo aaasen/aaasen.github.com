@@ -1,6 +1,6 @@
 
 body {
-	background: url('assets/bg/swirl.png');
+	background: url('/assets/bg/swirl.png');
 	font-family: "Ubuntu", Helvetica, Arial, sans-serif;
 	color: #222;
 }
