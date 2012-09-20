@@ -20,6 +20,8 @@
 				<a href="https://twitter.com/laneaasen"><img src="assets/img/twitter.png" /></a>
 				<a href="https://www.facebook.com/lane.aasen"><img src="assets/img/facebook.png" /></a>
 				<a href="https://github.com/laneaasen"><img src="assets/img/github.png" /></a>
+				<a href="http://www.linkedin.com/pub/lane-aasen/54/b17/212"><img src="assets/img/linkedin.png" /></a>
+				<a href="mailto:laneaasen@gmail.com"><img src="assets/img/email.png" /></a>
 			</div>
 	</body>
 </html>
