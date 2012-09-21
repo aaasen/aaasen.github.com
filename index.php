@@ -12,7 +12,7 @@
 	<body>
 		<div class="box">
 			<h1>Lane Aasen</h1>
-			<h3>developer &middot; entrepeneur &middot; student</h3>
+			<h3>developer &middot; entrepeneur</h3>
 			<p>CTO of <a href="http://firedov.es">Firedove</a>, web dev on <a href="http://www.showrapp.co">Showr</a>. Avid hiker, skier and runner.</p>
 
 			<div class="social">
