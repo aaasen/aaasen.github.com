@@ -1,15 +1,23 @@
 
 body {
-	background: url('/assets/bg/swirl.png');
-	font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-	color: #222;
+	//background-image: url('/assets/bg/swirl.png');
+	//background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/arches.png');
+	//background-image: url('http://sphotos-b.xx.fbcdn.net/hphotos-ash4/383866_3555958744431_2120239988_n.jpg');
+	//background-image: url('http://sphotos-b.xx.fbcdn.net/hphotos-ash3/527933_3555956424373_696797381_n.jpg');
+	//background-image: url('http://sphotos-a.xx.fbcdn.net/hphotos-ash3/s720x720/540281_3555951144241_922444675_n.jpg');
+	background-image: url('/home/aasen/graphics/whidbey/final/IMG_1380.JPG');
+	//1380
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: "Georgia", serif;
+	color: #f6f6f6;
 }
 
 h1 {
-	font-family: "Contrail One", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 46px;
-	font-weight: normal;
-	padding: 12px 0px 0px 0px;
+	font-weight: lighter;
+	padding: 0px 0px 4px 0px;
 }
 
 h3 {
@@ -19,39 +27,48 @@ h3 {
 }
 
 p {
-	padding: 16px 8px;
+	//padding: 16px 8px;
+	padding: 16px 0px 4px 0px;
 	font-size: 16px;
 }
 
 a {
-	color: #222;
+	//color: #222;
+	color: #f2f2f2;
 	text-decoration: none;
 	font-weight: bold;
 }
 
 .box {
-	background-color: #fdfdfd;
+	//background-color: #fdfdfd;
 	border-radius: 4px;
 	padding-top: 0px;
 	//box-shadow: h-shadow v-shadow blur spread color inset;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.04);
-	margin-left: auto;
+	//box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.04);
+	margin-left: 300px;
 	margin-right: auto;
-	margin-top: 100px;
+	margin-top: 295px;
 	width: 300px;
-	border: 1px solid #e3e3e3;
+	//border: 1px solid #e3e3e3;
 	text-align: center;
 }
 
 .social {
-	background-color: #fdfdfd;
+	//background-color: #fdfdfd;
 	padding: 8px 0px;
-	box-shadow: 0px 2px 4px 2px #f2f2f2 inset;
-	border-top: 1px solid #e3e3e3;
+	//box-shadow: 0px 2px 4px 2px #f2f2f2 inset;
+	//border-top: 1px solid #e3e3e3;
 }
 
 .social img {
 	margin: 0px 4px;
 	border-radius: 6px;
-	box-shadow: 0px 2px 4px 4px #eee;
+	//box-shadow: 0px 2px 4px 4px #eee;
+}
+
+.subtext {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: white;
 }

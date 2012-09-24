@@ -5,14 +5,14 @@
 		<title>Lane Aasen</title>
 		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/main.css">
-		<link href='http://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<div class="box">
 			<h1>Lane Aasen</h1>
-			<h3>developer &middot; entrepeneur</h3>
+			<h3>developer &middot; entrepeneur &middot; designer</h3>
 			<p>CTO of <a href="http://firedov.es">Firedove</a>, web dev on <a href="http://www.showrapp.co">Showr</a>. Avid hiker, skier and runner.</p>
 
 			<div class="social">
@@ -23,6 +23,7 @@
 				<a href="http://www.linkedin.com/pub/lane-aasen/54/b17/212"><img src="assets/img/linkedin.png" /></a>
 				<a href="mailto:laneaasen@gmail.com"><img src="assets/img/email.png" /></a>
 			</div>
+		</div>
 	</body>
 </html>
 
