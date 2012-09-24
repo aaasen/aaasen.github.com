@@ -1,12 +1,6 @@
 
 body {
-	//background-image: url('/assets/bg/swirl.png');
-	//background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/arches.png');
-	//background-image: url('http://sphotos-b.xx.fbcdn.net/hphotos-ash4/383866_3555958744431_2120239988_n.jpg');
-	//background-image: url('http://sphotos-b.xx.fbcdn.net/hphotos-ash3/527933_3555956424373_696797381_n.jpg');
-	//background-image: url('http://sphotos-a.xx.fbcdn.net/hphotos-ash3/s720x720/540281_3555951144241_922444675_n.jpg');
-	background-image: url('/home/aasen/graphics/whidbey/final/IMG_1380.JPG');
-	//1380
+	background-image: url('/assets/img/hawk.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	font-family: "Georgia", serif;
