@@ -1,8 +1,9 @@
 
 body {
-	background-image: url('/assets/img/hawk.jpg');
+	background-image: url('/home/aasen/dev/aasenin/assets/img/hawk.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 1000px;
+	background-color: #5982ae;
 	font-family: "Georgia", serif;
 	color: #f6f6f6;
 }
