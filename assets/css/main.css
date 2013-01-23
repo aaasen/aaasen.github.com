@@ -1,69 +1,29 @@
 
 body {
-	background-image: url('/assets/img/hawk.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 1000px;
-	background-color: #5982ae;
-	font-family: "Georgia", serif;
-	color: #f6f6f6;
+	font-family: "Source Sans Pro", serif;
+	color: #222;
+	background-color: #eee;
+	padding-top: 128px;
+	text-align: center;
 }
 
 h1 {
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 46px;
-	font-weight: lighter;
-	padding: 0px 0px 4px 0px;
+	font-size: 48px;
 }
 
 h3 {
 	font-size: 16px;
-	margin-top: -4px;
 	font-weight: normal;
-}
-
-p {
-	//padding: 16px 8px;
-	padding: 16px 0px 4px 0px;
-	font-size: 16px;
+	font-style: italic;
 }
 
 a {
-	//color: #222;
-	color: #f2f2f2;
+	color: #77001a;
 	text-decoration: none;
 	font-weight: bold;
-}
-
-.box {
-	//background-color: #fdfdfd;
-	border-radius: 4px;
-	padding-top: 0px;
-	//box-shadow: h-shadow v-shadow blur spread color inset;
-	//box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.04);
-	margin-left: 300px;
-	margin-right: auto;
-	margin-top: 295px;
-	width: 300px;
-	//border: 1px solid #e3e3e3;
-	text-align: center;
+	font-size: 16px;
 }
 
 .social {
-	//background-color: #fdfdfd;
 	padding: 8px 0px;
-	//box-shadow: 0px 2px 4px 2px #f2f2f2 inset;
-	//border-top: 1px solid #e3e3e3;
-}
-
-.social img {
-	margin: 0px 4px;
-	border-radius: 6px;
-	//box-shadow: 0px 2px 4px 4px #eee;
-}
-
-.subtext {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	color: white;
 }
