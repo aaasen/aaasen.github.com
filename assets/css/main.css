@@ -4,10 +4,14 @@
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	color: rgba(0, 0, 0, 0.9);
-	background-color: #5bb4c0;
-	background-image: url("../img/voxel.png");
 	text-align: center;
 	font-size: 26px;
+
+	background-color: #3ca9cf;
+	background-image: url("../img/voxel.png");
+	background-repeat: no-repeat;
+	min-height: 100%;
+	background-size: cover;
 }
 
 #name {
