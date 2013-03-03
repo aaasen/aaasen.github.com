@@ -3,7 +3,7 @@ body {
 	font-family: "Source Sans Pro", serif;
 	color: #222;
 	background-color: #eee;
-	padding-top: 128px;
+	padding-top: 16px;
 	text-align: center;
 }
 
@@ -26,4 +26,27 @@ a {
 
 .social {
 	padding: 8px 0px;
+}
+
+.box {
+	margin: auto;
+
+	background-image: url('../img/adventure.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	width: 512px;
+	background-color: white;
+	padding-top: 650px;
+
+	box-shadow: 0px 0px 8px #888;
+}
+
+.overlay {
+	border-top: 1px #070001 solid;
+	background: rgba(240, 240, 240, 0.8);
+}
+
+#adventure {
+	width: 512px;
 }
