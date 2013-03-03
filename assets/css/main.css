@@ -1,29 +1,47 @@
 
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+
 body {
-	font-family: "Source Sans Pro", serif;
-	color: #222;
-	background-color: #eee;
-	padding-top: 128px;
+	font-family: "Source Sans Pro", sans-serif;
+	color: rgba(0, 0, 0, 0.9);
+	background-color: #5bb4c0;
+	background-image: url("../img/voxel.png");
 	text-align: center;
+	font-size: 26px;
 }
 
-h1 {
-	font-size: 48px;
+#name {
+	font-size: 50px;
+	font-family: "Bitter", serif;
+	font-weight: bold;
+	display: block;
+	line-height: 1.8em;
 }
 
-h3 {
-	font-size: 16px;
+#subtitle {
+	color: rgba(0, 0, 0, 0.5);
 	font-weight: normal;
 	font-style: italic;
+	background-color: white;
+	padding: 0px 4px 0px 4px;
+	line-height: 2em;
 }
 
 a {
-	color: #77001a;
+	line-height: 2em;
+	color: #5bb4c0;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 22px;
 }
 
-.social {
-	padding: 8px 0px;
+.box {
+	background-color: white;
+	padding: 20px 0px 20px 0px;
+	width: 400px;
+	margin-top: 200px ;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
 }
