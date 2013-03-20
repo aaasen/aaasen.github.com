@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Lane Aasen</title>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
@@ -12,26 +13,36 @@ e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
 mixpanel.init("ba20b05513feb72cdb8ff4a521d15dab");</script><!-- end Mixpanel -->
 	</head>
  
-	<body onload="mixpanel.track('load');">
+	<body>
 		<div class="box">
 			<span id="name">Lane Aasen</span>
 			<span id="subtitle">software adventurer</span>
 
 			<div class="social">
-				<a id="github" href="https://github.com/aaasen" onclick="mixpanel.track('github');">
+				<a id="github" href="https://github.com/aaasen">
 					<i class="icon-github"></i>
 					github
 				</a> &middot;
-				<a id="twitter" href="https://twitter.com/aaaasen" onclick="mixpanel.track('twitter');">
+				<a id="twitter" href="https://twitter.com/aaaasen">
 					<i class="icon-twitter"></i>
 					twitter
 				</a> &middot;
-				<a id="linkedin" href="http://www.linkedin.com/pub/lane-aasen/54/b17/212" onclick="mixpanel.track('linkedin');">
+				<a id="linkedin" href="http://www.linkedin.com/pub/lane-aasen/54/b17/212">
 					<i class="icon-linkedin"></i>
 					linkedin
 				</a>
 			</div>
 		</div>
+		
+		<script type="text/javascript">
+			$(document).ready(function () {
+				mixpanel.track('load');
+			
+				mixpanel.track_links('a#github', 'github');
+				mixpanel.track_links('a#twitter', 'twitter');
+				mixpanel.track_links('a#linkedin', 'linkedin');
+			});
+		</script>
 	</body>
 </html>
 
