@@ -38,9 +38,9 @@ mixpanel.init("ba20b05513feb72cdb8ff4a521d15dab");</script><!-- end Mixpanel -->
 			$(document).ready(function () {
 				mixpanel.track('load');
 			
-				mixpanel.track_links('a#github', 'github');
-				mixpanel.track_links('a#twitter', 'twitter');
-				mixpanel.track_links('a#linkedin', 'linkedin');
+				mixpanel.track_links('a#github', 'link', { 'target' : 'github' });
+				mixpanel.track_links('a#twitter', 'link', { 'target' : 'twitter'});
+				mixpanel.track_links('a#linkedin', 'link', { 'target' : 'linkedin'});
 			});
 		</script>
 	</body>
