@@ -148,6 +148,10 @@ em {
 	font-style: italic;
 }
 
+strong {
+	font-weight: bold;
+}
+
 a {
 	color: rgba(104, 0, 255, 0.8);
 	text-decoration: none;
