@@ -57,6 +57,7 @@ Some pseudocode:
 
 I'm not sure how this will work in a dynamic context.
 
+{% highlight python %}
     class VertexBuffer
       FloatBuffer vertices
       boolean read = false
@@ -78,3 +79,4 @@ I'm not sure how this will work in a dynamic context.
         if (!read)
           vertices.flip()
           read = true
+{% endhighlight %}

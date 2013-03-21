@@ -39,18 +39,20 @@ Descriptions for other files can be found in `model.md` and `view.md`.
 ### Init
 Init reads a configuration file and launches the engine. In the future, it will do so via a proper graphical launcher.
 
-    class Init:
-       Map config = loadConfigFromFile("config.json")
-       // config = { "screen_width" : 1920, "screen_height" : 1080 }
-       
-       // initialize LWJGL
-       Display.create();
-       Keyboard.create();
-       Mouse.create();
-       
-       Model model = new Model(...)
-       Controller controller = new Controller(model, ...)
-       View view = new View(model, ...)
-       
-       model.init()
-       view.init()
+```java
+class Init:
+   Map config = loadConfigFromFile("config.json")
+   // config = { "screen_width" : 1920, "screen_height" : 1080 }
+   
+   // initialize LWJGL
+   Display.create();
+   Keyboard.create();
+   Mouse.create();
+   
+   Model model = new Model(...)
+   Controller controller = new Controller(model, ...)
+   View view = new View(model, ...)
+   
+   model.init()
+   view.init()
+```
