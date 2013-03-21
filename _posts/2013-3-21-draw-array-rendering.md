@@ -1,6 +1,7 @@
-# How I screwed up implenting drawArrays
-
-## Terms
+---
+layout: post
+title: How I screwed up implenting drawArrays
+---
 
 ### Immediate Rendering
 

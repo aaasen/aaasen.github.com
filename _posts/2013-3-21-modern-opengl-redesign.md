@@ -1,3 +1,8 @@
+---
+layout: post
+title: Modern OpenGL Redesign
+---
+
 # Why Redesign?
 
 I originally created Voxel Party during a weekend of fervent hacking.
