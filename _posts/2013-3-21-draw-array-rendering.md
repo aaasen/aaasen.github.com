@@ -10,15 +10,17 @@ If you've just started with OpenGL, this is probably what you are using.
 
 Example:
 
-    glBegin(GL_TRIANGLES);
+```java
+glBegin(GL_TRIANGLES);
 
-    glColor3f(0, 0, 0);
+glColor3f(0, 0, 0);
 
-    glVertex3f(0, 0, 0);
-    glVertex3f(0, 1, 0);
-    glVertex3f(1, 1, 0);
+glVertex3f(0, 0, 0);
+glVertex3f(0, 1, 0);
+glVertex3f(1, 1, 0);
 
-    glEnd();
+glEnd();
+```
 
 ### drawArrays
 
@@ -57,26 +59,26 @@ Some pseudocode:
 
 I'm not sure how this will work in a dynamic context.
 
-{% highlight python %}
-    class VertexBuffer
-      FloatBuffer vertices
-      boolean read = false
+```python
+class VertexBuffer
+  FloatBuffer vertices
+  boolean read = false
+  
+  put(VertexContainer)
+    if (there is not room)
+      expand the buffer
       
-      put(VertexContainer)
-        if (there is not room)
-          expand the buffer
-          
-        write()
-        vertices.put(VertexConatiner)
-        read()
-        
-      write()
-        if (read)
-          vertices.flip()
-          read = false
-      
-      read()
-        if (!read)
-          vertices.flip()
-          read = true
-{% endhighlight %}
+    write()
+    vertices.put(VertexConatiner)
+    read()
+    
+  write()
+    if (read)
+      vertices.flip()
+      read = false
+  
+  read()
+    if (!read)
+      vertices.flip()
+      read = true
+```

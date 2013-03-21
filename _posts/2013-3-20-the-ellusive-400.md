@@ -19,9 +19,11 @@ What.
 
 I took a closer look at TPB. Here's their `robots.txt`.
 
-	User-Agent: *
-	Allow: /
-	Sitemap: http://thepiratebay.se/sitemap-googlish.xml.gz
+```
+User-Agent: *
+Allow: /
+Sitemap: http://thepiratebay.se/sitemap-googlish.xml.gz
+```
 
 Everything checks out, they shouldn't be blocking robots.
 
