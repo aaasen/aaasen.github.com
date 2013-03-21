@@ -69,6 +69,7 @@ code {
 	background-color: rgba(0, 0, 0, 0.02);
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 4px;
+	font-size: 14px;
 }
 
 pre {
@@ -132,9 +133,22 @@ ol {
 	list-style-type: upper-roman;
 }
 
+li {
+	display: block;
+}
+
 blockquote {
 	padding-left: 16px;
-	/*border-left: 4px solid rgba(91, 180, 192, 0.5);*/
-	/*border-left: 4px solid rgba(255, 150, 0, 0.5);*/
 	border-left: 4px solid rgba(104, 0, 255, 0.6);
+
+	color: rgba(0, 0, 0, 0.4);
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	color: rgba(104, 0, 255, 0.8);
+	text-decoration: none;
 }

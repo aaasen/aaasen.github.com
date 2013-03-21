@@ -29,28 +29,6 @@ However, I've heard that threading can get really ugly in games and isn't worth 
 Oh well! Current computers have at least 2 cores, my desktop has 6, and next gen consoles are rumored to have 8.
 There's got to be some point in threading games.
 
-# Structural Overview
-
-`Init`
-* model/
-    * `Model` 
-    * structs/
-        * `Block`
-        * `Chunk`
-        * `World`
-        * generators/
-        * blocks/
-* view/
-    * `View`
-    * structs/
-        * `VertexContainer`
-        * `VertexBuffer`
-    * util/
-        * `Plane`
-        * `Shaders`
-* controller/
-    * `Controller` 
-
 ---
 
 ## Structural Specifics

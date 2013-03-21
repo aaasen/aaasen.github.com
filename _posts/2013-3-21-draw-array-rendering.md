@@ -40,7 +40,7 @@ I'm working on a new solution with a much better understanding of what I actuall
   * `VertexContainer.java`
   * `VertexBuffer.java`
 
-### `VertexContainer`
+### VertexContainer
 
 `VertexContainer` is the parent class of any vertex in Voxel Party. It contains data for position, color, shaders, etc.
 `VertexContainer` will be extended to `TriangleVertexConatiner`, `QuadVertexConatiner`, and the like.
@@ -51,7 +51,7 @@ Some pseudocode:
       float[] vertices;
       float[] colors;
 
-### `VertexBuffer`
+### VertexBuffer
 
 `VertexBuffer` is the rendering container for `VertexConatiner`. 
 
