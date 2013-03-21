@@ -1,6 +1,0 @@
-[submodule ".submodules/cssgrid"]
-	path = .submodules/cssgrid
-	url = git://github.com/andytlr/cssgrid.git
-[submodule ".submodules/fontawesome"]
-	path = .submodules/fontawesome
-	url = git://github.com/FortAwesome/Font-Awesome.git
