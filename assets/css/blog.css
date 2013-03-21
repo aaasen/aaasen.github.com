@@ -5,7 +5,7 @@
 body {
 	font-family: "Merriweather Sans", sans-serif;
 	color: rgba(0, 0, 0, 0.9);
-	font-size: 16px;
+	font-size: 14px;
 
 	margin-top: 16px;
 	background-color: white;
@@ -37,16 +37,46 @@ div.social {
 }
 
 div.content {
+	font-family: "Open Sans";
 
+}
+
+div.content > p {
+	margin: 16px 0px;
+	line-height: 1.5em;
 }
 
 h2.title {
 	font-weight: bold;
-	font-size: 26px;
+	font-size: 32px;
 }
 
 hr {
 	border: 0px;
 	height: 1px;
 	background-color: rgba(0, 0, 0, 0.2);
+}
+
+code {
+	font-family: "Inconsolata", Consolas, courier, monospace;
+	padding: 0px 4px;
+	color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.02);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+pre {
+	padding: 6px 12px;
+	color: #21899E;
+	background-color: rgba(0, 0, 0, 0.02);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+div.content > pre > code {
+	padding: 0px;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	line-height: 1.2em;
 }
