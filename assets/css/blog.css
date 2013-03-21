@@ -1,0 +1,52 @@
+
+@import url("http://fonts.googleapis.com/css?family=Bitter:700");
+@import url("http://fonts.googleapis.com/css?family=Merriweather+Sans:400");
+
+body {
+	font-family: "Merriweather Sans", sans-serif;
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 16px;
+
+	margin-top: 16px;
+	background-color: white;
+}
+
+span#name {
+	font-size: 50px;
+	font-family: "Bitter", serif;
+	font-weight: bold;
+	display: block;
+	line-height: 1em;
+}
+
+span#subtitle {
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 22px;
+	line-height: 2.2em;
+}
+
+div.social > a {
+	color: #5bb4c0;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+div.social {
+	color: rgba(0, 0, 0, 0);
+}
+
+div.content {
+
+}
+
+h2.title {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+hr {
+	border: 0px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
