@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lane Aasen</title>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="../.submodules/cssgrid/js/css3-mediaqueries.js"></script>
+		<link rel="stylesheet" href="../.submodules/cssgrid/css/1140.css" type="text/css" media="screen"/>
+
+		<link rel="stylesheet" href="../assets/css/reset.css">
+		<link rel="stylesheet" href="../assets/css/blog.css">
+		<link rel="stylesheet" href="../assets/css/grid.css">
+		<link rel="stylesheet" href="../assets/fontawesome/css/font-awesome.min.css">
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="fourcol info">				
+					<div id="title">
+						<span id="name">Lane Aasen</span>
+						<span id="subtitle">software adventurer</span>
+					</div>
+
+					<div class="social">
+						<a id="github" href="https://github.com/aaasen">
+							<i class="icon-github"></i>
+							github
+						</a> &middot;
+						<a id="twitter" href="https://twitter.com/aaaasen">
+							<i class="icon-twitter"></i>
+							twitter
+						</a>
+					</div>
+				</div>
+
+				<div class="eightcol last content">
+					<h2 class="title">The Elusive 400</h2>
+
+<hr>
+					<p class="body">
+
+<p>Early in this project, I ran into a rather mysterious problem trying to fetch data from The Pirate Bay.</p>
+
+<p>At first, every attempt to pull data from The Pirate Bay resulted in a 400 error (bad request).
+I thought this was a result of robot protection, and started spoofing headers.
+After playing around with it for a while, I came up with the corrent set of headers to fool TPB, or so I thought.
+I had been working at school, which meant tethering off of my phone.</p>
+
+<p>When I got home, all of my requests suddently started returning 400s again. Shit.
+I tried again with my phone, and it worked.
+It wasn't just my home network either.
+Using StudentRND's network I got the same error code.</p>
+
+<p>What.</p>
+
+<p>I took a closer look at TPB. Here's their <code>robots.txt</code>.</p>
+
+<pre><code>User-Agent: *
+Allow: /
+Sitemap: http://thepiratebay.se/sitemap-googlish.xml.gz
+</code></pre>
+
+<p>Everything checks out, they shouldn't be blocking robots.</p>
+
+<p>Same computer, same code, different networks. There must be something with the networks.</p>
+
+<p>Perhaps the mobile site is different?
+I seem to still get the desktop site so that shouldn't be an issue.</p>
+
+<p>Really, I have no clue. Perhaps it's some nuance of tethering?
+I've resorted to using a mirror, but seriously want to figure out why this is happening.
+To Stack Overflow!</p>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			$(document).ready(function () {
+				mixpanel.track('load');
+			
+				mixpanel.track_links('a#github', 'link', { 'target' : 'github' });
+				mixpanel.track_links('a#twitter', 'link', { 'target' : 'twitter'});
+				mixpanel.track_links('a#linkedin', 'link', { 'target' : 'linkedin'});
+			});
+		</script>
+	</body>
+</html>
+
