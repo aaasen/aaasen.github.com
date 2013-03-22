@@ -30,11 +30,11 @@ span#subtitle {
 
 div.social > a {
 	font-family: "Lato", helvetica, sans-serif;
-	color: rgba(104, 0, 255, 0.8);
+	color: #5bb4c0;
 	font-weight: 900;
 	text-decoration: none;
 	font-size: 18px;
-	line-height: 1.8em;
+	line-height: 1em;
 }
 
 div.social {
