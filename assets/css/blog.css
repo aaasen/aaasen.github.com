@@ -22,7 +22,7 @@ span#name {
 }
 
 span#subtitle {
-	font-family: "Merriweather Sans", helvetica, sans-serif;
+	font-family: "Merriweather Sans", sans-serif;
 	color: rgba(0, 0, 0, 0.4);
 	font-size: 22px;
 	line-height: 2.2em;

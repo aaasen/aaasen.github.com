@@ -25,9 +25,7 @@ hr {
 code {
 	font-family: "Inconsolata", courier, monospace;
 	padding: 0px 4px;
-	
-	color: #69981b;
-
+	color: rgb(0, 112, 32);
 	background-color: rgba(0, 0, 0, 0.02);
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 4px;
@@ -110,6 +108,6 @@ strong {
 }
 
 a {
-	color: rgb(96, 160, 176);
+	color: rgb(14, 132, 181);
 	text-decoration: none;
 }
