@@ -33,6 +33,7 @@ code {
 }
 
 pre {
+	overflow-x: auto;
 	padding: 0px 4px;
 	line-height: 0.8em;
 	padding: 6px 12px;
