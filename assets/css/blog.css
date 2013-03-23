@@ -8,9 +8,12 @@ body {
 	font-family: "Lato", "Open Sans", helvetica, sans-serif;
 	font-size: 16px;
 	color: rgba(0, 0, 0, 0.9);
+	padding-top: 16px;
+}
 
-	margin-top: 16px;
-	background-color: white;
+div.info {
+	text-align: center;
+	padding: 32px 0px;
 }
 
 span#name {
@@ -45,8 +48,8 @@ div.content {
 	font-size: 16px;
 }
 
-h2.title {
-	text-align: right;
+h1.title {
+	/*text-align: right;*/
 	font-weight: bold;
 	font-size: 32px;
 }
