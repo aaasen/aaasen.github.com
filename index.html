@@ -34,7 +34,7 @@ mixpanel.init("ba20b05513feb72cdb8ff4a521d15dab");</script><!-- end Mixpanel -->
 		
 		<script type="text/javascript">
 			$(document).ready(function () {
-				mixpanel.track('load');
+				mixpanel.track('load', { 'page' : 'home' });
 			
 				mixpanel.track_links('a#github', 'link', { 'target' : 'github' });
 				mixpanel.track_links('a#twitter', 'link', { 'target' : 'twitter'});

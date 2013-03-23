@@ -60,7 +60,7 @@ mixpanel.init("60e2e0f08992a865bc102ffc760ab11b");</script><!-- end Mixpanel -->
 		
 		<script type="text/javascript">
 			$(document).ready(function () {
-				mixpanel.track('load');
+				mixpanel.track('load', { 'page' : '{{ page.title }}' });
 			
 				mixpanel.track_links('a#github', 'link', { 'target' : 'github' });
 				mixpanel.track_links('a#twitter', 'link', { 'target' : 'twitter'});
