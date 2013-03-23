@@ -8,6 +8,8 @@ description: Software Adventurer
 	<article class="post">
 		<a href="{{post.url}}"><h1 class="title">{{ post.title }}</h1></a>
 
+		<h6 class="center">posted on {{ post.date | date: "%B %d" }} in {{ post.category }}</h6>
+
 		<hr>
 
 		{{ post.content }}

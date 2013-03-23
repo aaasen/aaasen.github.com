@@ -9,6 +9,7 @@ body {
 	font-size: 16px;
 	color: rgba(0, 0, 0, 0.9);
 	padding-top: 16px;
+	padding-bottom: 64px;
 }
 
 div.info {
@@ -16,12 +17,18 @@ div.info {
 	padding: 32px 0px;
 }
 
-span#name {
+a#name {
+	color: rgba(0, 0, 0, 0.9);
 	font-size: 50px;
 	font-family: "Bitter", serif;
 	font-weight: bold;
 	display: block;
 	line-height: 1em;
+}
+
+a#name:hover {
+	color: rgba(0, 0, 0, 0.7);
+	text-decoration: none;
 }
 
 span#subtitle {
@@ -57,4 +64,21 @@ h1.title {
 
 article.post {
 	margin-bottom: 64px;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+a.nav {
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.9);
 }
