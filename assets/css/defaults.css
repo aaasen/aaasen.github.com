@@ -108,6 +108,12 @@ strong {
 	font-weight: bold;
 }
 
+small {
+	font-size: 12px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.2);
+}
+
 a {
 	color: rgb(14, 132, 181);
 	text-decoration: none;
