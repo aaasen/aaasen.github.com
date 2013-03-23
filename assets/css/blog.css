@@ -52,6 +52,7 @@ h1.title {
 	text-align: center;
 	font-weight: bold;
 	font-size: 24px;
+	color: rgba(0, 0, 0, 0.9);
 }
 
 article.post {
