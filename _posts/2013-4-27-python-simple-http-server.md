@@ -1,4 +1,3 @@
-
 ## Simple Local File Sharing with Python's SimpleHTTPServer
 
 I have a laptop and a desktop, and often need to share a file between them.
