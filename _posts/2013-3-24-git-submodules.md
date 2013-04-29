@@ -2,7 +2,7 @@
 layout: post
 title: magical dependency management with git submodules
 category: GIT
-published: true
+published: false
 ---
 
 Managing dependecies can be a total pain.
