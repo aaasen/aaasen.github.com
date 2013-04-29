@@ -1,3 +1,10 @@
+---
+layout: post
+title: simple local file sharing with python's simplehttpserver
+category: PYTHON TOOLS
+published: false
+---
+
 ## Simple Local File Sharing with Python's SimpleHTTPServer
 
 I have a laptop and a desktop, and often need to share a file between them.
